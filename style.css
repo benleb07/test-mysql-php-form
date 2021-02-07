@@ -1,0 +1,271 @@
+
+body {
+	margin: 0;
+	font-family: Trebuchet MS, Arial Black, sans-serif;
+	overflow-x: hidden;
+	
+
+}
+
+
+#banner1 {
+	background-color: #586067;
+	height: 80px;
+	width: 100%;
+
+	
+}
+
+#banner1 p {
+	text-align: center;
+	font-family: Trebuchet MS, Arial Black, sans-serif;
+	font-size: 35px;
+	font-weight: bold;
+	padding-top: 25px;
+    margin: 0;
+	 
+}
+
+
+
+
+
+
+
+.menu {
+	width: 100%;
+	height: 150px;
+	background-color: #30363B;
+	font-family: Trebuchet MS, Arial Black, sans-serif;
+	margin: 0;
+	padding-top: 10px;
+	
+
+}
+
+.menu ul {
+    position: relative;
+	height: auto;
+	display: flex;
+	flex-direction: row;
+    
+
+
+}
+
+.menu ul li {
+	display: block;
+	list-style-type: none;
+	background-color: #586067;
+	width: 200px;
+	position: relative;
+	top: 25px;
+	margin-left:30px;
+	padding: 5px 0 5px 0;	
+	border: 2px solid black;
+	margin: 0 auto;
+	text-align: center;
+
+	
+	
+}
+
+.menu ul li a {
+	
+	text-align: center;
+	height: 30px;
+	color: black;
+	text-decoration: none;
+	font-size: 30px;
+    position: relative;
+    
+    
+}
+
+.menu ul li a:hover {
+	color: black;
+	background-color: #95A1AB;
+	width: 150px;
+	height: 30px;
+	
+	    
+}
+
+.banner2 {
+	background-color: #586067;
+	height: 80px;
+	width: auto;
+}
+
+.banner2 p {
+	margin: 0;
+	text-align: center;
+	padding-top: 20px;
+	font-size: 30px;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.contenuprincipal {
+	
+	width: auto;
+	margin: 0 5px 0 5px;
+
+}
+
+.contenuprincipal p {
+	margin-left: 10px;
+	
+}
+
+.contenuprincipal fieldset p {
+	font-size: 16px;
+}
+
+.prenom {
+	
+	position: relative;
+	left: 20px;
+	font-size: 40px;
+    font-weight: bold;
+
+}
+
+.nom {
+	
+	position: relative;
+	left: 20px;
+	bottom: 80px;
+	font-size: 40px;
+	font-weight: bold;
+
+
+}
+
+.poste {
+	
+    position: relative;
+    left: 225px;
+    bottom: 80px;
+    font-size: 28px;
+
+
+}
+
+.p_profil {
+	font-size: 24px;
+}
+
+.photo_id {
+	display: block;
+	float: left;
+	margin-left: 15px;
+	border: 2px solid black;
+}
+
+.f_coor {
+	float: right;
+	position: relative;
+	bottom: 307px;
+	background-color: #EEEEEE;
+	padding-right: 70px;
+}
+
+.img_adresse {
+	float: left;
+	position: relative;
+	top: 10px;
+	margin-right: 5px;
+}
+
+.p_adresse {
+	position: relative;
+	left: 2px;
+}
+
+
+
+.img_mail {
+	float: left;
+	position: relative;
+}
+
+.p_mail {
+	float: right;
+	position: relative;
+	bottom: 10px;
+}
+
+.img_phone {
+	float: left;
+	position: relative;
+	top: 38px;
+}
+
+.p_phone {
+	float: left;
+	position: relative;
+	left: 26px;
+}
+
+
+
+footer {
+	
+	text-align: center;
+	background-color: #586067;
+    padding-top: 25px;
+    width: 100%; 
+    height: 50px;
+    padding-bottom: 15px;
+    margin-top: 200px;     
+
+}
+
+footer p {
+	font-weight: bold;
+	margin: 0;
+
+}
+
+}
+
+/* max, si l'écran est inf ou égal alors {...}*/
+@media (max-width: 1300px) {
+    body {
+    	width:100%;
+    }
+
+
+    
+
+}
+
+
+
+@media (max-width: 1000px) {
+    body {
+    	width: 100%;
+    	
+    }
+
+
+    .menu ul li a {
+        float:left;
+    }
+
+    .banner2 {
+        width: 100%;
+    }
+
+    
+    
+
+}
+
+@media (max-width: 840px) {
+    
+
+}
+
+
